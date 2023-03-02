@@ -1,0 +1,242 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@font-face {
+    font-family: 'portas';
+    src: url('../fontes/Do0rness-Regular.ttf') format('truetype');
+    font-weight: normal;
+}
+
+:root {
+    --fontepadrao: 'arial','helvetica';
+    --fontedestaque: 'Bebas Neue', 'cursive';
+    --fontedoors: 'portas';
+    --cor0: #4A4DF7;
+    --cor1: #0004F5;
+    --cor3: #0003C2;
+    --cor4: #232575;
+    --cor5: #000275;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: var(--cor0);
+    font-family: var(--fontepadrao);
+}
+
+p {
+    text-align: justify;
+    line-height: 2em;
+    font-family: var(--fontepadrao);
+}
+
+strong {
+    color: var(--cor5);
+    font-weight: bolder;
+}
+
+header {
+    background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
+    min-height: 100px;
+    width: 100%;
+      
+}
+
+header p {
+    text-align: center;
+    min-width: 320px;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px;
+}
+
+header h1 {
+    padding: 15px;
+    text-align: center;
+    color: #fff;
+    font-weight: bolder;
+    font-family: var(--fontedestaque);
+    padding-top: 15px;
+}
+
+nav {
+    background-color: var(--cor5);
+    box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.397);
+}
+
+nav a {
+    color: rgb(128, 128, 128);
+    text-decoration: none;
+    font-weight: bold;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-right: 5px;
+    transition-duration: 0.7s;
+}
+
+nav a:hover {
+    color: var(--cor1);
+    background-color: var(--cor3);
+    border-radius: 5px;
+}
+
+main {
+    background-color: #fff;
+    margin: auto;
+    max-width: 1000px;
+    min-width: 300px;
+    box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.397);
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+main ul {
+   list-style-position: inside;
+   padding: 5px;
+   columns: 2;
+}
+
+main p {
+    padding: 10px;
+    text-align: justify;
+    text-indent: 20px;
+    font-family: var(--fontepadrao);
+}
+
+main h1 {
+    padding-top: 10px;
+    padding-left: 10px;
+    font-family: var(--fontedoors);
+    font-size: 2.7em;
+}
+
+main h2 {
+    font-family: var(--fontedoors);
+    font-size: 2em;
+    background-image: linear-gradient(to right, black, transparent);
+    color: #fff;
+}
+
+main h3 {
+    font-family: var(--fontedoors);
+    font-size: 1.5em;
+    color: rgb(70, 70, 70);
+}
+
+aside {
+    background-color: var(--cor3);
+    padding: 15px;
+    border-radius: 10px ;
+    color: #fff;
+}
+
+aside ul {
+    color: #fff;
+}
+
+aside h3 {
+    color: rgb(116, 116, 116);
+    background-color: var(--cor5);
+    margin: -15px -15px 0px -15px;
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+} 
+
+
+footer {
+    margin-top: 30px;
+    background-color: var(--cor5);
+}
+
+footer p {
+    color:#fff;
+    font-weight: bold;
+}
+
+footer a {
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+span#titulocabecalho {
+    font-family:'portas';
+    font-size: 40px;
+}
+
+.saibamais {
+    background-color: var(--cor3);
+    color: #fff;
+}
+
+.saibamais > h1 {
+    background-color: var(--cor5);
+    margin: -15px -15px 0px -15px;
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+img.menu {
+    padding: 10px;
+    width: 10%;
+    margin: 10px 0px 10px 0px;
+    text-align: center;
+    background-color: var(--cor3);
+}
+
+img.menu:hover {
+    width: 11%;
+    margin: 0px;
+}
+
+img.size {
+    width: 80%;
+    padding: 10px;
+    margin: auto;
+    display: block;
+}
+
+img#menu2 {
+   margin-left: 10px;
+}
+
+.imgdisplay {
+    display: inline;
+}
+
+img.puzzle {
+    width: 50%;
+    padding: 30px;
+    margin: auto;
+    display: block;
+    background-image: linear-gradient(to right, var(--cor5), var(--cor3));
+    border: 3px solid #000000;
+    margin-bottom: 10px;
+    box-shadow: 2px 2px 4px #00000067;
+    margin-top: 10px;
+}
+
+div#video {
+    background-image: linear-gradient(to right, var(--cor5), var(--cor3));
+    border: 3px solid #000000;
+    box-shadow: 2px 2px 4px #00000067;
+    position: relative;
+    margin: 0px 20px 20px 20px;
+    padding: 20px;
+    padding-bottom: 50%;
+}
+
+div#video  iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+span#a {
+    color: var(--cor1);
+}

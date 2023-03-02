@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+:root {
+    --fontepadrao: 'arial','helvetica';
+    --fontedestaque: 'Bebas Neue', 'cursive';
+    --fontedoors: 'portas';
+    --cor0: #4A4DF7;
+    --cor1: #0004F5;
+    --cor3: #0003C2;
+    --cor4: #232575;
+    --cor5: #000275;
+}
+
+main p {
+    font-size: 1.5em;
+}
+
+main ul {
+    font-size: 1.3em;
+    background-color: var(--cor3);
+    color: #fff;
+    font-weight: 500;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    list-style-type: "\00A0\00A0\1F9F7";
+}
+

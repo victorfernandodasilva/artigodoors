@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+:root {
+    --fontepadrao: 'arial','helvetica';
+    --fontedestaque: 'Bebas Neue', 'cursive';
+    --fontedoors: 'portas';
+    --cor0: #4A4DF7;
+    --cor1: #0004F5;
+    --cor3: #0003C2;
+    --cor4: #232575;
+    --cor5: #000275;
+}
+
+img {
+    width: 40%;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, var(--cor5), var(--cor3));
+}
